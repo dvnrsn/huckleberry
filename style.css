@@ -9,4 +9,46 @@ body {
   padding: 0;
 }
 
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
 /* Add styles here! */
+
+header {
+  margin: 72 128;
+  margin-bottom: 36;
+}
+
+section {
+  background-color:hsl(0deg, 0%, 100%)
+}
+
+main {
+  padding: 72 112;
+  background-color:hsl(0deg, 0%, 60%);
+  border-top: 4px solid hsl(0deg, 0%, 40%);
+}
+
+header {
+  max-width: 300px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 4px solid hsl(45deg, 100%, 40%);
+  margin: 0;
+  margin-left: -32px;
+  margin-top: -8px;
+  display: inline-block;
+  padding: 16 32;
+}
+
+.card {
+  padding: 16px;
+  border-bottom: 4px solid hsl(0deg, 0%, 40%);
+}
+
+.max-width-wrapper {
+  max-width: 520px;
+}
